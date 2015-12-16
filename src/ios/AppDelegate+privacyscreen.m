@@ -29,7 +29,7 @@ UIImageView *imageView;
   } else {
     imageView = [[UIImageView alloc]initWithFrame:[self.viewController.view bounds]];
     [imageView setImage:splash];
-    [self.viewController.view addSubview:imageView];
+    [self.window addSubview:imageView];
   }
 }
 
